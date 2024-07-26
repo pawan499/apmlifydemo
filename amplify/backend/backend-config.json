@@ -1,1 +1,22 @@
-{}
+{
+  "api": {
+    "myfullstacktute": {
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "additionalAuthenticationProviders": [],
+          "defaultAuthentication": {
+            "apiKeyConfig": {
+              "apiKeyExpirationDate": "2025-07-25T10:24:01.817Z",
+              "apiKeyExpirationDays": 364,
+              "description": "this is my first api"
+            },
+            "authenticationType": "API_KEY"
+          }
+        }
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "AppSync"
+    }
+  }
+}
